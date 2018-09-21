@@ -62,5 +62,9 @@ until card_total > 21
     break
   end
 end
- end_game(card_total)
+ if card_total > 21
+   end_game(card_total)
+ else 
+  puts "Congrats, you win with a score of #{card_total}. Thanks for playing!"
+end
 end
