@@ -61,5 +61,6 @@ until card_total > 21
     break
     puts "Congrats, you win with a score of #{card_total}. Thanks for playing!"
   end
+end
  end_game(card_total)
 end
