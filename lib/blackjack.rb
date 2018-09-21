@@ -58,7 +58,6 @@ until card_total > 21
   card_total = hit?(card_total)
   display_card_total(card_total)
   if card_total >= 16
-    puts "Congrats, you win with a score of #{card_total}. Thanks for playing!"
     break
   end
 end
